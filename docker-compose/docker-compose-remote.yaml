@@ -27,7 +27,7 @@ services:
       context: ..
       dockerfile: docker/geoserver/Dockerfile
     image: 'geoserver_prge'
-    container_name: 'geoserver_prge'
+    container_name: 'geoserver_prge_${ENV_TEST}'
     environment:
      - *env-geoserver-password
      - *env-geoserver-user
