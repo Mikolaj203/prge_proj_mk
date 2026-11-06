@@ -4,7 +4,7 @@ x-environment:
   - &env-postgres-password POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
   - &env-geoserver-user GEOSERVER_ADMIN_USER=${GEOSERVER_ADMIN_USER}
   - &env-geoserver-password GEOSERVER_ADMIN_PASSWORD=${GEOSERVER_ADMIN_PASSWORD}
-
+  - &env-postgres-port POSTGRES_PORT=${POSTGRES_PORT}
 
 services:
   postgis:
@@ -33,6 +33,21 @@ services:
      - *env-geoserver-user
     ports:
       - ${GEOSERVER_PORT}:8080
+
+
+  fastapi:
+    build:
+      context: ..
+      dockerfile: docker/fastapi/Dockerfile
+    image: 'fastapi_prge'
+    container_name: 'fastapi_prge_${ENV_NAME}'
+    environment:
+      - *env-postgres-db
+      - *env-postgres-user
+      - *env-postgres-password
+      - *env-postgres-port
+    ports:
+      - ${FASTAPI_PORT}:10000
 
 
 volumes:
