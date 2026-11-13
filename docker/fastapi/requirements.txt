@@ -5,5 +5,3 @@ geoalchemy2
 psycopg2-binary
 pandas
 geopandas
-requests
-beautifulsoup4
