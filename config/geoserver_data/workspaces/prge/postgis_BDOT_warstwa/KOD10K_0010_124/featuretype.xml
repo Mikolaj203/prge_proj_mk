@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--f56a4a4:1a1d4a30d1b:-7fee</id>
+  <name>KOD10K_0010_124</name>
+  <nativeName>KOD10K_0010_124</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--f56a4a4:1a1d4a30d1b:-7ff5</id>
+  </namespace>
+  <title>KOD10K_0010_124</title>
+  <keywords>
+    <string>features</string>
+    <string>KOD10K_0010_124</string>
+  </keywords>
+  <srs>EPSG:2180</srs>
+  <nativeBoundingBox>
+    <minx>316132.09375</minx>
+    <maxx>316977.1875</maxx>
+    <miny>706574.1875</miny>
+    <maxy>707000.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>16.180638619360813</minx>
+    <maxx>16.193838950083855</maxx>
+    <miny>54.19040686784286</miny>
+    <maxy>54.19453280953627</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--f56a4a4:1a1d4a30d1b:-7fef</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
